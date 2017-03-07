@@ -13,6 +13,7 @@
 		D6D4D9021E6F1331007B8692 /* SoundBank.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D6D4D9001E6F1331007B8692 /* SoundBank.xcdatamodeld */; };
 		D6D4D9041E6F1331007B8692 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6D4D9031E6F1331007B8692 /* Assets.xcassets */; };
 		D6D4D9071E6F1331007B8692 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6D4D9051E6F1331007B8692 /* LaunchScreen.storyboard */; };
+		D6D4D90F1E6F5590007B8692 /* addSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D4D90E1E6F5590007B8692 /* addSoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D6D4D9031E6F1331007B8692 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6D4D9061E6F1331007B8692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6D4D9081E6F1331007B8692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6D4D90E1E6F5590007B8692 /* addSoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addSoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				D6D4D8F91E6F1331007B8692 /* AppDelegate.swift */,
 				D6D4D8FB1E6F1331007B8692 /* ViewController.swift */,
 				D6D4D8FD1E6F1331007B8692 /* Main.storyboard */,
+				D6D4D90E1E6F5590007B8692 /* addSoundViewController.swift */,
 				D6D4D9031E6F1331007B8692 /* Assets.xcassets */,
 				D6D4D9051E6F1331007B8692 /* LaunchScreen.storyboard */,
 				D6D4D9081E6F1331007B8692 /* Info.plist */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6D4D90F1E6F5590007B8692 /* addSoundViewController.swift in Sources */,
 				D6D4D8FC1E6F1331007B8692 /* ViewController.swift in Sources */,
 				D6D4D8FA1E6F1331007B8692 /* AppDelegate.swift in Sources */,
 				D6D4D9021E6F1331007B8692 /* SoundBank.xcdatamodeld in Sources */,
