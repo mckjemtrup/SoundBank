@@ -70,6 +70,9 @@
                                 <state key="normal" title="Play">
                                     <color key="titleColor" red="0.19437980651855469" green="0.54466211795806885" blue="0.9856535792350769" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <state key="disabled">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="playTapped:" destination="h9x-9g-exW" eventType="touchUpInside" id="0cb-wt-04y"/>
                                 </connections>
@@ -107,7 +110,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="UHu-VD-cmr"/>
                     <connections>
+                        <outlet property="addButton" destination="uIg-fN-WYm" id="htp-xG-jxp"/>
                         <outlet property="nameTextField" destination="AFK-6r-bd4" id="aEL-q5-GPc"/>
+                        <outlet property="playButton" destination="KhP-8Z-AnT" id="CVA-6D-YBV"/>
                         <outlet property="recordButton" destination="P28-oD-YQD" id="wF8-iP-S1p"/>
                     </connections>
                 </viewController>
