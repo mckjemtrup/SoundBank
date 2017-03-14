@@ -41,6 +41,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="soundTableView" destination="R3m-OR-QTZ" id="0JG-HJ-ebk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -90,6 +93,9 @@
                                 <rect key="frame" x="172.5" y="274" width="30" height="30"/>
                                 <state key="normal" title="add">
                                     <color key="titleColor" name="alternateSelectedControlColor" catalog="System" colorSpace="catalog"/>
+                                </state>
+                                <state key="disabled">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="addTapped:" destination="h9x-9g-exW" eventType="touchUpInside" id="o4s-A4-DPf"/>
